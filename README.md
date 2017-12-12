@@ -1,5 +1,7 @@
 # ContosoUniversity.API
 
+New dotnet core and visual studio 2017 is awesome. I can't praise it enough how well the tool is made. 
+
 - ASP.NET Core 2.0 & Entity Framework Core
 - Code First Migration
 - OpenID Connect
