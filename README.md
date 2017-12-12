@@ -26,4 +26,5 @@ Referenced [Microsoft](https://docs.microsoft.com/en-us/aspnet/core/data/ef-mvc/
 - Separation of concerns is widely applied so the codes are not tightly coupled. (Ex: repository patterns)
 - Used Automapper to prevent from over-posting attacks
 - Fluent validation is used
-- Token based security
+- RESTful HTTP API using JSON as a data format
+- Token based security (Authentication & API calls)
