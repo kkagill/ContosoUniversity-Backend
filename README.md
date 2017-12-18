@@ -1,6 +1,7 @@
 # ContosoUniversity.API
 
-- ASP.NET Core 2.0 & Entity Framework Core
+- ASP.NET Core 2.0 
+- Entity Framework Core
 - Code First Migration
 - OpenID Connect
 - Identity 
