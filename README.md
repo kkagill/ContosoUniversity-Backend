@@ -1,6 +1,6 @@
 # ContosoUniversity.API
 
-RESTful API ContosoUniversity Backend
+RESTful API ContosoUniversity Backend using Microsoft.AspNetCore.Identity 
 
 - ASP.NET Core 2.0 
 - Entity Framework Core
