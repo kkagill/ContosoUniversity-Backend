@@ -1,5 +1,7 @@
 # ContosoUniversity.API
 
+RESTful API ContosoUniversity Backend
+
 - ASP.NET Core 2.0 
 - Entity Framework Core
 - Code First Migration
@@ -28,4 +30,9 @@ Referenced [Microsoft](https://docs.microsoft.com/en-us/aspnet/core/data/ef-mvc/
 - Used Automapper to prevent from over-posting attacks
 - Fluent validation is used
 - RESTful HTTP API using JSON as a data format
-- Token based security (Authentication & API calls)
+- JWT(JSON Web Tokens) based security (Authentication & API calls)
+
+## Test API
+
+- Ex: using Postman test GET http://localhost:51089/api/instructors
+- and many more..
