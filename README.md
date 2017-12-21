@@ -39,7 +39,8 @@ Use Postman or other API testing IDEs
 - Ex: GET http://localhost:51089/api/instructors
 - Access Apis based on a role (Admin or User):
   
-  ![1](https://user-images.githubusercontent.com/7738916/34234638-2e99fad6-e5a1-11e7-86ca-ebea9f7c1eab.png)
+  ![1](https://user-images.githubusercontent.com/7738916/34234683-6f08fb94-e5a1-11e7-8438-a39736fb1bc6.png)
+
 
   
   
