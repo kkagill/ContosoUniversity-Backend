@@ -30,7 +30,7 @@ Referenced [Microsoft](https://docs.microsoft.com/en-us/aspnet/core/data/ef-mvc/
 - Used Automapper to prevent from over-posting attacks
 - Fluent validation is used
 - RESTful HTTP API using JSON as a data format
-- JWT(JSON Web Tokens) based security (Authentication & API calls)
+- JWT(JSON Web Tokens) based security (Authentication, Authorization & API calls)
 
 ## Test API
 
