@@ -39,11 +39,15 @@ Use Postman or other API testing IDEs
 - Ex: GET http://localhost:51089/api/instructors
 - Access Apis based on a role (Admin or User):
   
-  First, copy access_token value
+  First, POST http://localhost:51089/connect/token 
+  
+  and copy access_token value
   
   ![1](https://user-images.githubusercontent.com/7738916/34234683-6f08fb94-e5a1-11e7-8438-a39736fb1bc6.png)
   
-  and create Key & Value in the Headers section. Paste the access_token value in the Value textbox (Bearer ...)
+  and GET http://localhost:51089/api/admin to access API with [Authorize(Roles = "Admin")]
+  
+  Create Key & Value in the Headers section. Paste the access_token value in the Value textbox (Bearer ...)
   
   ** important: put it after space **
   
