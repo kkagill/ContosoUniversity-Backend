@@ -20,8 +20,10 @@ Referenced [Microsoft](https://docs.microsoft.com/en-us/aspnet/core/data/ef-mvc/
 4. Navigate to Tools - Extensions and Updates..
 5. Search for Open Command Line and install (restart Visual Studio)
 6. Click on ContosoUniversity.API on the Solution Explorer, and press ALT + SPACE to open up Command-Line Interface
-7. Run this migration command: dotnet ef migrations add InitialDatabase -c ContosoContext
-8. Run another command which creates database: dotnet ef database update -c ContosoContext
+7. Run this migration command: 
+- dotnet ef migrations add InitialDatabase -c ContosoContext
+8. Run another command which creates database: 
+- dotnet ef database update -c ContosoContext 
 9. Press F5 to run the project. (Make sure ContosoUniversity.API is set as startup project)
 
 ## Best Practice
