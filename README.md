@@ -34,5 +34,13 @@ Referenced [Microsoft](https://docs.microsoft.com/en-us/aspnet/core/data/ef-mvc/
 
 ## Test API
 
-- Ex: using Postman test GET http://localhost:51089/api/instructors
-- and many more..
+Use Postman or other API testing IDEs
+
+- Ex: GET http://localhost:51089/api/instructors
+- Access Apis based on a role (Admin or User):
+  Ex: POST http://localhost:51089/connect/token
+  and copy the value of access_token: ex: eyJhbGciOiJSUzI1NiIs...
+  
+  
+  
+    
