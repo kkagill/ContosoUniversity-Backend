@@ -44,6 +44,7 @@ Use Postman or other API testing IDEs
   ![1](https://user-images.githubusercontent.com/7738916/34234683-6f08fb94-e5a1-11e7-8438-a39736fb1bc6.png)
   
   and create Key & Value in the Headers section. Paste the access_token value in the Value textbox (Bearer ...)
+  
   ** important: put it after space **
   
   ![2](https://user-images.githubusercontent.com/7738916/34234702-83d01242-e5a1-11e7-8d28-736d5d8bda95.png)
