@@ -22,7 +22,8 @@ Referenced [Microsoft](https://docs.microsoft.com/en-us/aspnet/core/data/ef-mvc/
 6. Click on ContosoUniversity.API on the Solution Explorer, and press ALT + SPACE to open up Command-Line Interface
 7. Run this migration command: **dotnet ef migrations add InitialDatabase -c ContosoContext**
 8. Run another command which creates database: **dotnet ef database update -c ContosoContext** 
-9. Press F5 to run the project. (Make sure ContosoUniversity.API is set as startup project)
+9. In Startup.cs, uncomment `seeder.InitializeData().Wait();` from Configure method 
+10. Press F5 to run the project. (Make sure ContosoUniversity.API is set as startup project)
 
 ## Best Practice
 
