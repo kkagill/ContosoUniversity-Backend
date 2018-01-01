@@ -182,7 +182,7 @@ namespace ContosoUniversity.API
             app.UseMvcWithDefaultRoute();
             app.UseWelcomePage();
 
-            seeder.InitializeData().Wait();
+            //seeder.InitializeData().Wait();
         }
     }
 }
