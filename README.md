@@ -35,7 +35,7 @@ Referenced [Microsoft](https://docs.microsoft.com/en-us/aspnet/core/data/ef-mvc/
 
 ## Test API
 
-Use Postman or other API testing IDEs
+Use Postman or other API testing tools
 
 - Ex: **GET** `http://localhost:51089/api/instructors`
 - Access Apis based on a role (Admin or User):
