@@ -40,7 +40,7 @@ Use Postman or other API testing tools
 - **GET** `http://localhost:51089/api/instructors`
 - Access Apis based on a role (Admin or User):
 
-  We will use admin account to get access_token
+  Create Keys & Values in the 'Body' tab -> 'x-www-form-urlencoded' section using an admin account
   
   **POST** `http://localhost:51089/connect/token` and copy access_token value
   
@@ -48,7 +48,7 @@ Use Postman or other API testing tools
   
   **GET** `http://localhost:51089/api/admin` where it is decorated with `[Authorize(Roles = "Admin")]` attribute.
   
-  Create Key & Value in the Headers section. Paste the access_token value in the Value textbox: `Bearer fdi20du...`  
+  Create Key & Value clicking `Headers` tab. Paste the access_token value in the Value textbox: `Bearer fdi20du...`  
   
   ![2](https://user-images.githubusercontent.com/7738916/34234702-83d01242-e5a1-11e7-8d28-736d5d8bda95.png)
 
