@@ -51,7 +51,7 @@ Use Postman or other API testing tools
   
   **GET** `http://localhost:51089/api/admin` where it is decorated with `[Authorize(Roles = "Admin")]` attribute.
   
-  Create Key & Value clicking `Headers` tab. Paste the access_token value in the Value textbox: `Bearer fdi20du...`  
+  Create Key & Value clicking `Headers` tab. Paste the access_token value in the Value textbox: `Bearer eyjhb...`  
   
   ![2](https://user-images.githubusercontent.com/7738916/34234702-83d01242-e5a1-11e7-8d28-736d5d8bda95.png)
 
