@@ -44,7 +44,7 @@ Use Postman or other API testing tools
   
   ![1](https://user-images.githubusercontent.com/7738916/34234683-6f08fb94-e5a1-11e7-8438-a39736fb1bc6.png)
   
-  **GET** `http://localhost:51089/api/admin` to access API where it is decorated with `[Authorize(Roles = "Admin")]` attribute.
+  **GET** `http://localhost:51089/api/admin` where it is decorated with `[Authorize(Roles = "Admin")]` attribute.
   
   Create Key & Value in the Headers section. Paste the access_token value in the Value textbox: `Bearer fdi20du...`  
   
