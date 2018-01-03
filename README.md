@@ -1,13 +1,13 @@
 # ContosoUniversity.API
 
-RESTful API ContosoUniversity Backend using Microsoft.AspNetCore.Identity and OpenID Connect
+RESTful API ContosoUniversity Backend using AspNetCore.Identity and OpenID Connect
 
 - ASP.NET Core 2.0 
-- Entity Framework Core
+- Entity Framework Core 2.0
 - Code First Migration
-- OpenID Connect
-- Identity 
-- Sql Server
+- OpenIdConnect.Server
+- AspNetCore.Identity 2.0
+- EntityFrameworkCore.SqlServer
 - Automapper
 
 Referenced [Microsoft](https://docs.microsoft.com/en-us/aspnet/core/data/ef-mvc/intro) and [chsakell](https://chsakell.com/2016/06/23/rest-apis-using-asp-net-core-and-entity-framework-core/)'s REST API best practice
