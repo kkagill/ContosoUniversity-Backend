@@ -39,6 +39,8 @@ Use Postman or other API testing tools
 
 - **GET** `http://localhost:51089/api/instructors`
 - Access Apis based on a role (Admin or User):
+
+  We will use admin account to get access_token
   
   **POST** `http://localhost:51089/connect/token` and copy access_token value
   
