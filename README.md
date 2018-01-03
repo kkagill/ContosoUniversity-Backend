@@ -37,10 +37,10 @@ Referenced [Microsoft](https://docs.microsoft.com/en-us/aspnet/core/data/ef-mvc/
 
 Use Postman or other API testing IDEs
 
-- Ex: GET `http://localhost:51089/api/instructors`
+- Ex: **GET** `http://localhost:51089/api/instructors`
 - Access Apis based on a role (Admin or User):
   
-  First, POST `http://localhost:51089/connect/token` 
+  First, **POST** `http://localhost:51089/connect/token` 
   
   and copy access_token value
   
