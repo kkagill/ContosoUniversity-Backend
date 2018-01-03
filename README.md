@@ -40,7 +40,7 @@ Use Postman or other API testing tools
 - **GET** `http://localhost:51089/api/instructors`
 - Access Apis based on a role (Admin or User):
 
-  Create Keys & Values in the 'Body' tab -> 'x-www-form-urlencoded' section using an admin account
+  Create Keys & Values in the `Body` tab -> `x-www-form-urlencoded` section using an admin account
   
   **POST** `http://localhost:51089/connect/token` and copy access_token value
   
