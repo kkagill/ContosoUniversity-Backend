@@ -42,7 +42,7 @@ Use Postman or other API testing tools
 
   **POST** `http://localhost:51089/connect/token`
   
-  Create Keys & Values in `Body` tab, `x-www-form-urlencoded` section using an admin account and copy `access_token` value
+  Create Keys & Values in `Body` tab, `x-www-form-urlencoded` section using admin account and copy `access_token` value
   
   ![1](https://user-images.githubusercontent.com/7738916/34234683-6f08fb94-e5a1-11e7-8438-a39736fb1bc6.png)
   
