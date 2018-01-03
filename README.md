@@ -37,16 +37,14 @@ Referenced [Microsoft](https://docs.microsoft.com/en-us/aspnet/core/data/ef-mvc/
 
 Use Postman or other API testing tools
 
-- Ex: **GET** `http://localhost:51089/api/instructors`
+- **GET** `http://localhost:51089/api/instructors`
 - Access Apis based on a role (Admin or User):
   
-  First, **POST** `http://localhost:51089/connect/token` 
-  
-  and copy access_token value
+  **POST** `http://localhost:51089/connect/token` and copy access_token value
   
   ![1](https://user-images.githubusercontent.com/7738916/34234683-6f08fb94-e5a1-11e7-8438-a39736fb1bc6.png)
   
-  and **GET** `http://localhost:51089/api/admin` to access API where it is decorated with `[Authorize(Roles = "Admin")]` attribute.
+  **GET** `http://localhost:51089/api/admin` to access API where it is decorated with `[Authorize(Roles = "Admin")]` attribute.
   
   Create Key & Value in the Headers section. Paste the access_token value in the Value textbox: `Bearer fdi20du...`  
   
