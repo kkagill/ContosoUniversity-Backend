@@ -1,6 +1,6 @@
 # ContosoUniversity.API
 
-RESTful API ContosoUniversity Backend using AspNetCore.Identity and OpenID Connect
+RESTful API using AspNetCore.Identity and OpenID Connect
 
 - ASP.NET Core 2.0 
 - Entity Framework Core 2.0
